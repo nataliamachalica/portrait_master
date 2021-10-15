@@ -1,0 +1,17 @@
+.fileContainer .uploadPictureContainer {
+  width: 50%;
+  -webkit-box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.1);
+  background: #499bea;
+  background: -webkit-gradient(left top, right top, color-stop(0%, #499bea), color-stop(100%, #207ce5));
+  background: -webkit-gradient(linear, left top, right top, from(#499bea), to(#207ce5));
+  background: linear-gradient(to right, #499bea 0%, #207ce5 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#499bea', endColorstr='#207ce5', GradientType=1 );
+  padding: 0.7rem;
+}
+
+.fileUploader.hide .fileContainer .uploadIcon,
+.fileUploader.hide .fileContainer .chooseFileButton,
+.fileUploader.hide .fileContainer p {
+  display: none;
+}

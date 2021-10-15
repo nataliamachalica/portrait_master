@@ -1,0 +1,12 @@
+.photo-preview {
+  width: 100%;
+  max-width: 45rem;
+  padding: 1rem;
+  background: #ffaf4b;
+  background: -webkit-gradient(left top, right top, color-stop(0%, #ffaf4b), color-stop(100%, #d04011));
+  background: -webkit-gradient(linear, left top, right top, from(#ffaf4b), to(#d04011));
+  background: linear-gradient(to right, #ffaf4b 0%, #d04011 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffaf4b', endColorstr='#d04011', GradientType=1 );
+  margin: 1rem auto 2rem auto;
+  display: block;
+}
